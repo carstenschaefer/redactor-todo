@@ -7,9 +7,10 @@ Feel free to contribute to this repository.
 
 ##Installation
 
-Include todo.js in your markup:
+Include todo.js and todo.css in your markup:
 
 ```html
+<link href="todo.css" type="text/css" rel="stylesheet" />
 <script src="autolist.js"></script>
 ```
 
