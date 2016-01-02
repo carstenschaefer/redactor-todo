@@ -1,0 +1,25 @@
+.redactor-toolbar li .re-icon.re-todoList{
+    text-transform: capitalize;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuM4zml1AAAAFTSURBVDhPpZO9SsRAFIXPOndiXLUT7OxsEi20sNXKxmpLwQewsvAF7ASxEC0EQRTcTdYNYrE+gKwvsGDtzxMoCP4g2UXPZIdgMIobD5xMZnLPl8kdAt/z4infvy9ik4W5QUEl2SKAY8A1YyFATevpQOvtU61n+wJEgAqVqjB8Rch7XeT8z4ATYDgUWaNvCegESrVCrWdSwCEwWlVqcRcYtJlUTaDM0Cb9RMf0TgCMfQClFFATOSP9jltcsrlEl4Bw/Yhv67LmkV41u7GPe7s3Fxas0G+kXwSOM9kAhhoic4FIm2sdQq6rjlM5ALTNJkoBbNAIAfssfmaD9jhucf5AvxASVdlxm8koBZiJPZ4W/cpgl8Ebej0ExpPqHGUAZnsMLjNkPqlZV2ohr6lflQEYEVImYD5y3YkNYMAu/6hvACMejwmWerPflQvoR0n2f7+zF38C4Luk3o+MRJAAAAAASUVORK5CYII=);
+}
+
+p.todoList{
+    margin:0;
+    padding:0;
+    display: block;
+    margin-bottom: 15px;
+}
+p.todoList>p.todo-item{
+    margin-bottom: 0;
+    background-repeat: no-repeat;
+    background-position: 0 3px;
+    padding-left: 20px;
+    cursor: default;
+    min-height: 22px;
+}
+p.todoList>p.todo-checkbox{
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAA3SURBVDhPY9TW0vrNyMj4hIEM8P//fxkGHW3t+1A+yQCklwnKJhuMGjBqAAiMGsDAQGF2/i8DAG8NDdOZWPPyAAAAAElFTkSuQmCC);
+}
+p.todoList>p.todo-checkmark{
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAAYdEVYdFNvZnR3YXJlAHBhaW50Lm5ldCA0LjAuM4zml1AAAAFTSURBVDhPpZO9SsRAFIXPOndiXLUT7OxsEi20sNXKxmpLwQewsvAF7ASxEC0EQRTcTdYNYrE+gKwvsGDtzxMoCP4g2UXPZIdgMIobD5xMZnLPl8kdAt/z4infvy9ik4W5QUEl2SKAY8A1YyFATevpQOvtU61n+wJEgAqVqjB8Rch7XeT8z4ATYDgUWaNvCegESrVCrWdSwCEwWlVqcRcYtJlUTaDM0Cb9RMf0TgCMfQClFFATOSP9jltcsrlEl4Bw/Yhv67LmkV41u7GPe7s3Fxas0G+kXwSOM9kAhhoic4FIm2sdQq6rjlM5ALTNJkoBbNAIAfssfmaD9jhucf5AvxASVdlxm8koBZiJPZ4W/cpgl8Ebej0ExpPqHGUAZnsMLjNkPqlZV2ohr6lflQEYEVImYD5y3YkNYMAu/6hvACMejwmWerPflQvoR0n2f7+zF38C4Luk3o+MRJAAAAAASUVORK5CYII=);
+}
